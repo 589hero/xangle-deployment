@@ -1,4 +1,4 @@
-FROM teachablenlp/torchserve-gpu:latest
+FROM teachablenlp/torchserve-gpu:0.6.0
 
 ARG MODEL_NAME=summary
 ENV MODEL_NAME $MODEL_NAME
