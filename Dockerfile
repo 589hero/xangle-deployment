@@ -1,5 +1,7 @@
 FROM teachablenlp/torchserve-gpu:0.6.0
 
+RUN pip install accelerate
+
 ARG MODEL_NAME=summary
 ENV MODEL_NAME $MODEL_NAME
 ARG MODEL_DOWNLOAD_LINK
